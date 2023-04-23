@@ -1,0 +1,153 @@
+body{
+    display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+body div{
+    display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 100%;
+  width: 100%;
+}
+
+div .left{
+    display: flex;
+    flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 40%;
+  height: 100%;
+  margin-right: 20px;
+}
+div .left label.Dose{
+    width: 100%;
+  height: 40px;
+  margin-top: 10px;
+}
+div .left label.document-type{
+    width: 100%;
+  height: 40px;
+
+  margin-bottom: 40px;
+}
+div .left label.document-number{
+    width: 100%;
+  padding: 8px 0px;
+  height: 30px;
+  margin-top: 13px;
+}
+div .left label.Identity-document{
+    width: 100%;
+  height: 60px;
+    margin-top: 14px;
+    margin-bottom: 35px;
+}
+div .left label.Third-dose{
+    width: 100%;
+  height: 50px;
+    margin-bottom:50px;
+}
+
+div .left label.Details{
+    width: 100%;
+  height: 40px;
+  margin-bottom: 160px;
+}
+div .left .Remark{
+  display:block;
+    width: 100%;
+  margin-top: 430px;
+}
+
+div .left .Remark p{
+  color: red;
+}
+
+div .right{
+      display: flex;
+    flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+width: 100%;
+  height: 100%;
+}
+
+div .right .select{
+  width: 500px;
+  height: 40px;
+  margin-bottom: 50px;
+}
+div .right .ID{
+  width: 500px;
+  height: 40px;
+}
+div .right input.ID-Card{
+    height: 35px;
+  width: 220px;
+    margin: 7px 0px;
+}
+div .right input.type{
+    height: 35px;
+  width: 160px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    margin-right: 10px;
+}
+
+div .right .date{
+      display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.not-inflected{
+        display: flex;
+    flex-direction: column;
+  justify-content: flex-start;
+    align-items: flex-start;
+  margin-top: 50px;
+    border: 2px solid grey;
+  width: 100%;
+    padding-top: 15px;
+    padding-bottom: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 170px;
+}
+.not-inflected span{
+font-size: 20px;
+  border-bottom: 1px solid black;
+  margin-bottom: 10px;
+}
+.not-inflected .fourDose input{
+margin: 8px 0px;
+}
+
+.receivedPerson{
+margin-top: 40px;
+margin-bottom: 20px;
+  border: 2px solid grey;
+  padding: 0px 10px;
+  background-color: #ffffeb;
+  width: 100%;
+}
+.receivedPerson h1{
+font-size: 20px;
+  color: red;
+}
+.receivedPerson p{
+font-size: 18px;
+  color: red;
+  text-align: justify;
+}
+
+.receivedPerson div{
+margin: 10px 0px;
+}
+
+.IntervalfourDose input{
+margin-top: 10px;
+}

@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body style="width:90%; margin-left: auto; margin-right: auto; font-family: Calibri;">
+<form>
+    <h3 style="font-size:27px;">COVID-19 Vaccination Programme - Booking System</h3>
+  
+<hr style="height: 1px; color:grey; margin-top: 15px; margin-bottom: 20px;">
+    
+<div>
+  <div class="left">
+      <label class="Dose">Please select the dose of vaccination</label>
+      <p>Please fill in all blanks</p>
+      <label class="document-type">Identity document type: </label>
+      <label class="document-number">Identity document number: </label>
+      <label class="Identity-document">Date of birth on Identity document:</label>
+      <label class="Third-dose">The Date of your third dose vaccination:</label>
+            <label class="Eligibility">Eligibility Group:</label>
+      <label class="Details">Details</label>
+            <div class="Remark">
+        <span>Choose the vaccine for your fourth dose:</span>
+        <p>Remark: Non-immunocompromised recovered persons aged 17 or below are not recommended to receive the 4th dose of vaccination.</p>
+      </div>
+    </div>
+  
+      <div class="right">
+      <div class="one">
+      <select class="select" style="font-size: 15px;">
+      <option>1st dose</option>
+      <option>2nd doses</option>
+      <option>3rd doses</option>
+      <option>4th doses</option>
+    </select>
+    </div>
+      <select class="ID">
+      <option>Hong Kong Identity Card</option>
+    </select>
+        <p>For Hong Kong residents not holding any of the above, please refer to Question no. 87 of FAQs.</p>
+        <input placeholder="e.g:A123456                 (7)" class="ID-Card">
+        <section class="date">
+        <div>
+          <input list="days" id="sauce" name="sauce" class="type" placeholder=" Day">
+          <datalist id="days">
+            <option value="Day"></option>
+            <option value="1"></option>
+            <option value="2"></option>
+            <option value="3"></option>
+            <option value="4"></option>
+            <option value="5"></option>
+            <option value="6"></option>
+            <option value="7"></option>
+            <option value="8"></option>
+            <option value="9"></option>
+            <option value="10"></option>
+            <option value="11"></option>
+            <option value="12"></option>
+            <option value="13"></option>
+            <option value="14"></option>
+            <option value="15"></option>
+            <option value="16"></option>
+            <option value="17"></option>
+            <option value="18"></option>
+            <option value="19"></option>
+            <option value="20"></option>
+            <option value="21"></option>
+            <option value="22"></option>
+            <option value="23"></option>
+            <option value="24"></option>
+            <option value="25"></option>
+            <option value="26"></option>
+            <option value="27"></option>
+            <option value="28"></option>
+            <option value="29"></option>
+            <option value="30"></option>
+            <option value="31"></option>
+          </datalist>
+        </div>
+          <div>
+            <input list="months" id="sauce" name="sauce" class="type"placeholder=" Month">
+          <datalist id="months">
+            <option value="Month"></option>
+            <option value="1"></option>
+            <option value="2"></option>
+            <option value="3"></option>
+            <option value="4"></option>
+            <option value="5"></option>
+            <option value="6"></option>
+            <option value="7"></option>
+            <option value="8"></option>
+            <option value="9"></option>
+            <option value="10"></option>
+            <option value="11"></option>
+            <option value="12"></option>
+          </datalist>
+          </div>
+          <div>
+            <input list="years" id="sauce" name="sauce" class="type" placeholder=" Year" style="width: 80px;">
+          <datalist id="years">
+            <option value="Year"></option>
+            <option value="1997"></option>
+            <option value="1998"></option>
+            <option value="1999"></option>
+            <option value="2000"></option>
+            <option value="2001"></option>
+            <option value="2002"></option>
+            <option value="2003"></option>
+            <option value="2004"></option>
+            <option value="2005"></option>
+            <option value="2006"></option>
+            <option value="2007"></option>
+            <option value="2008"></option>
+            <option value="2009"></option>
+            <option value="2010"></option>
+            <option value="2011"></option>
+            <option value="2012"></option>
+            <option value="2013"></option>
+            <option value="2014"></option>
+            <option value="2015"></option>
+            <option value="2016"></option>
+            <option value="2017"></option>
+            <option value="2018"></option>
+            <option value="2019"></option>
+            <option value="2020"></option>
+            <option value="2021"></option>
+            <option value="2022"></option>
+            <option value="2023"></option>
+          </datalist>
+          </div>
+        </section>
+<p>(if there is no complete date of bith on Identity document, please select "Not Applicable" in the corresponding data field.)</p>        
+
+        <section class="date">
+        <div>
+          <input list="days" id="sauce" name="sauce" class="type" placeholder=" Day"style="width: 60px;">
+          <datalist id="days" >
+            <option value=" Day"></option>
+            <option value="1"></option>
+            <option value="2"></option>
+            <option value="3"></option>
+            <option value="4"></option>
+            <option value="5"></option>
+            <option value="6"></option>
+            <option value="7"></option>
+            <option value="8"></option>
+            <option value="9"></option>
+            <option value="10"></option>
+            <option value="11"></option>
+            <option value="12"></option>
+            <option value="13"></option>
+            <option value="14"></option>
+            <option value="15"></option>
+            <option value="16"></option>
+            <option value="17"></option>
+            <option value="18"></option>
+            <option value="19"></option>
+            <option value="20"></option>
+            <option value="21"></option>
+            <option value="22"></option>
+            <option value="23"></option>
+            <option value="24"></option>
+            <option value="25"></option>
+            <option value="26"></option>
+            <option value="27"></option>
+            <option value="28"></option>
+            <option value="29"></option>
+            <option value="30"></option>
+            <option value="31"></option>
+          </datalist>
+        </div>
+          <div>
+            <input list="months" id="sauce" name="sauce" class="type" placeholder=" Month"style="width: 120px;">
+          <datalist id="months">
+            <option value=" Month"></option>
+            <option value="1"></option>
+            <option value="2"></option>
+            <option value="3"></option>
+            <option value="4"></option>
+            <option value="5"></option>
+            <option value="6"></option>
+            <option value="7"></option>
+            <option value="8"></option>
+            <option value="9"></option>
+            <option value="10"></option>
+            <option value="11"></option>
+            <option value="12"></option>
+          </datalist>
+          </div>
+          <div>
+            <input list="years" id="sauce" name="sauce"class="type" placeholder=" Year" style="width: 80px;">
+          <datalist id="years" >
+            <option value=" Year"></option>
+            <option value="1997"></option>
+            <option value="1998"></option>
+            <option value="1999"></option>
+            <option value="2000"></option>
+            <option value="2001"></option>
+            <option value="2002"></option>
+            <option value="2003"></option>
+            <option value="2004"></option>
+            <option value="2005"></option>
+            <option value="2006"></option>
+            <option value="2007"></option>
+            <option value="2008"></option>
+            <option value="2009"></option>
+            <option value="2010"></option>
+            <option value="2011"></option>
+            <option value="2012"></option>
+            <option value="2013"></option>
+            <option value="2014"></option>
+            <option value="2015"></option>
+            <option value="2016"></option>
+            <option value="2017"></option>
+            <option value="2018"></option>
+            <option value="2019"></option>
+            <option value="2020"></option>
+            <option value="2021"></option>
+            <option value="2022"></option>
+            <option value="2023"></option>
+          </datalist>
+          </div>
+        </section>
+
+      <section class="not-inflected">
+        <span><b>If you have not been infected with COVID-19:</b></span>
+        <span style="">Interval between 3rd and 4th dose is at least </span>
+        <section class="fourDose">
+ <input type="radio" id="Immunocompromised">
+        <label for="Immunocompromised">Immunocompromised individuals (Immunocompromised medical certificate required as proof)</label>
+          <br>
+        <input type="radio" id="50+">
+        <label for="50+">Persons aged 50 or above</label>
+          <br>
+          <span>Interval between 3rd and 4th dose is at least 180 days</span>
+          <br>
+        <input type="radio" id="18-49">
+        <label for="18-49">Persons aged 18 to 49</label>
+        </section>
+        </section>
+<section class="receivedPerson">
+        <h1>If you are COVID-19 recovered persons ^:</h1>
+        <p style="color: red;">^For COVID-19 recovered persons, please refer to the "Factsheet on COVID-19 Vaccination for Persons with Prior COVID-19 Infection" <a href="#" style="color:#804f0f">Here</a> for the vaccination arrangement before booking. Persons who are unsure if they had a previous COVID-19 infection or persons who do not have their recovery record in the Department Health's system are required to follow the relevant vaccination requirements applicable to uninfected persons. If an individual acquired COVID-19 infection and was tested positive for the first time within 14 days after receiving vaccination, they should not take one less dose of COVID-19 vaccine despite this infection episode. Persons who have recovered from more than one COVID-19 infection episode require one less dose than the general public.</p>
+        <span style="font-size: 20px;">Interval between 3rd and 4th dose is at least 90 days</span>
+        <div>
+        <input type="radio" id="at-least-ninty">
+        <label for="at-least-ninty">Recovered persons aged 18 years or above, who belong to Immunocompromised individuals (at least 90 days after recovery)(medical certificate required as proof)</label>
+        </div>
+        <span>Interval between 3rd and 4th dose is at least 180 days</span>
+        <div>
+        <input type="radio" id="at-least-one-hundred-and-eighty-days">
+        <label for="at-least-one-hundred-and-eighty-days">Recovered persons aged 18 years or above (at least 180 days after recovery)</label>
+        </div>
+    </section>
+
+        <section class="IntervalfourDose">
+ <input type="radio" id="radio1">
+        <label for="radio1">BioNTech/Fosun[Comirnaty](Aged 6 months or Above Only*)</label>
+          <br>
+
+        <input type="radio" id="radio2">
+        <label for="radio2">Sinovac(Aged 6 months or Above Only*)</label>
+          <br>
+
+        <input type="radio" id="radio3">
+        <label for="radio3">BioNTech/Fosun [Comirnaty Bivalent#] (Aged 18 years or above, or Immunocompromised uninfected persons aged 12 or above Only)</label>
+        </section>
+        <p>#For information receiving Comirnaty bivalent vaccine, please refer to <a href="#" style="color: #804f0f; text-decoration: none;">"Supplementary notes on use of Comirnaty Bivalent Vaccine<a>"</p>
+    </div>
+</div>
+  </form>
+  </body>
+</html>
